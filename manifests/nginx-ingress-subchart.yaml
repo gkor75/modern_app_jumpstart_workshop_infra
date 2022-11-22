@@ -11,7 +11,7 @@ spec:
   source:
     path: charts/nginx-plus-ingress
     repoURL: https://github.com/gkor75/modern_app_jumpstart_workshop_infra.git
-    targetRevision: HEAD
+    targetRevision: gk
   destination:
     namespace: nginx-ingress
     server: https://kubernetes.default.svc
